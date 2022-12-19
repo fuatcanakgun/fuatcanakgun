@@ -31,6 +31,7 @@
     :global(html, body) {
         font-family: 'Ubuntu', sans-serif;
         box-sizing: border-box;
+        color: #280004;
         margin: 0;
         padding: 0;
     }
@@ -57,7 +58,7 @@
         font-size: 24px;
         font-weight: 700;
         text-decoration: none;
-        margin-right: 1.75rem;
+        margin-right: 5rem;
     }
 
     a:visited {
