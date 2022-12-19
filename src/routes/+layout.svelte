@@ -14,7 +14,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <header>
@@ -29,7 +28,7 @@
 <slot />
 
 <style>
-    :global(html, body) {
+    :global(body) {
         font-family: 'Ubuntu', sans-serif;
         box-sizing: border-box;
         color: #280004;
@@ -38,23 +37,22 @@
     }
 
     img {
-        width: 12vmax;
+        width: 12%;
         border-radius: 50%;
         margin: 0.5rem;
         margin-right: 3rem;
+        max-width: 100px;
     }
 
     header {
         display: flex;
         justify-content: space-between;
         background: #14686e;
-        width: 100vmax;
     }
 
     nav {
         display: flex;
         align-items: center;
-        justify-content: space-between;
     }
 
     a {
@@ -74,5 +72,23 @@
         text-decoration-color: #DF4237;
         text-decoration-thickness: 3px;
         text-underline-offset: 3px;
+    }
+
+    @media screen and (max-width: 750px) {
+        header {
+            width: 100vmax;
+            min-width: 615px;
+        }
+
+        a {
+            font-size: 20px;
+            margin-right: 2rem;
+        }
+
+        img {
+            width: 8%;
+            margin-right: 0.5rem;
+        }
+
     }
 </style>
