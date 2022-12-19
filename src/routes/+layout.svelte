@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <header>
@@ -37,15 +38,17 @@
     }
 
     img {
-        width: 9vmax;
+        width: 12vmax;
         border-radius: 50%;
         margin: 0.5rem;
+        margin-right: 3rem;
     }
 
     header {
         display: flex;
         justify-content: space-between;
         background: #14686e;
+        width: 100vmax;
     }
 
     nav {
@@ -58,7 +61,8 @@
         font-size: 24px;
         font-weight: 700;
         text-decoration: none;
-        margin-right: 5rem;
+        margin-right: 2rem;
+        color: #280004;
     }
 
     a:visited {
