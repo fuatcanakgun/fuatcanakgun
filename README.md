@@ -1,4 +1,4 @@
 # Fuat Can Akgün
 
-## Current job: Data Scientist
+## Current job: Jr. ata Scientist
 ## Interests: Web Development & Game Development
